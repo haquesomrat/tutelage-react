@@ -1,0 +1,29 @@
+.container-header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.header{
+    padding: 30px;
+    background-color: rgb(100, 207, 172);
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 70px;
+}
+.header h1{
+    color: rgb(218, 85, 85);
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 10px double rgb(228, 114, 114);
+    border-radius: 50%;
+}
+.logo:hover{
+    height: 110px;
+    width: 110px;
+    margin: 3px;
+}
+.slogan{
+    font-style: oblique;
+    color: rgb(62, 255, 56);
+}
