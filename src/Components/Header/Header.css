@@ -1,20 +1,31 @@
 .container-header{
-    display: grid;
-    grid-template-columns: 20% 80%;
+    display: flex;
 }
-
-.header{
-    padding: 30px;
-    background-color: rgb(100, 207, 172);
-    border: 3px solid rgb(0, 0, 0);
-    border-bottom-left-radius: 70px;
+.container-header nav {
+    background-color: rgb(75, 63, 245);
+    line-height: 40px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30px;
 }
-.header h1{
-    color: rgb(218, 85, 85);
+.container-header nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.container-header nav a:hover{
+    background-color: lightcoral;
+    border-radius: 40px;
+    padding: 10px;
+    color: black;
 }
 .logo{
     height: 100px;
     width: 100px;
+    margin: 10px;
+    margin-right: 500px;
     border: 10px double rgb(228, 114, 114);
     border-radius: 50%;
 }
@@ -22,8 +33,5 @@
     height: 110px;
     width: 110px;
     margin: 3px;
-}
-.slogan{
-    font-style: oblique;
-    color: rgb(62, 255, 56);
+    margin-right: 490px;
 }

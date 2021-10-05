@@ -1,0 +1,20 @@
+.course-container{
+    display: flex;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+}
+.course-pic img{
+    height: 200px;
+    width: 200px;
+    margin-right: 500px;
+    border-radius: 10px;
+}
+.course-details{
+    font-size: large;
+    color: forestgreen;
+}
+.course-details:hover{
+font-size: larger;
+color: lightseagreen;
+}
