@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+    margin-top: 40px;
+    bottom: 0;
+}
+.left{
+    display: flex;
+    margin-right: 60%;
+    color: cadetblue;
+}
+.left p{
+    margin: 10px;
+}
+.right{
+    color: cadetblue;
+}

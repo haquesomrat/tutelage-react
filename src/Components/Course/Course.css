@@ -1,12 +1,13 @@
 .course-container{
     display: flex;
-    background-color: bisque;
-    margin: 5px;
+    background-color: bisque;;
     padding: 5px;
+    margin-bottom: 20px;
 }
 .course-pic img{
     height: 200px;
     width: 200px;
+    
     margin-right: 500px;
     border-radius: 10px;
 }

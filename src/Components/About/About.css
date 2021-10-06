@@ -1,0 +1,9 @@
+.about-container h1{
+    font-size: large;
+    color: chocolate;
+    font-weight: 700;
+}
+.about-container h5{
+    font-size: medium;
+    font-weight: 400;
+}

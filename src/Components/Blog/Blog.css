@@ -1,0 +1,10 @@
+.blogs-container h1{
+    color: coral;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.blogs-container h3{
+    color: crimson;
+    font-weight: 600;
+}

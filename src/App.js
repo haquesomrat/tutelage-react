@@ -19,10 +19,14 @@ function App() {
           <Route path="/tutors">
             <Tutors></Tutors>
           </Route>
-          <Route path="/about  ">
+          <Route path="/blogs">
+            <Blog></Blog>
+          </Route>
+          <Route path="/about">
             <About></About>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

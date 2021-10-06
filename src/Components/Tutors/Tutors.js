@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react/cjs/react.development';
 import Tutor from '../Tutor/Tutor';
+import './Tutors.css';
 
-const Tutors = (props) => {
+const Tutors = () => {
     const [tutors, setTutors] = useState([]);
     useEffect(() => {
         fetch('/edu.JSON')

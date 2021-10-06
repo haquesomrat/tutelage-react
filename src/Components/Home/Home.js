@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react/cjs/react.development';
 import Course from '../Course/Course';
+import './Home.css';
 
 const Home = () => {
     const [courses, setCourses] = useState([]);
@@ -13,10 +14,10 @@ const Home = () => {
 
     return (
         <>
-            <div className="search-courses">
-
+            <div className="headline">
+                <h1>Classes</h1>
             </div>
-            <div className="course-container">
+            <div className="courses-container">
                 <div>
                     {
                         courses.map(course => <Course
