@@ -5,6 +5,7 @@ import Blog from './Components/Blog/Blog';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 import Tutors from './Components/Tutors/Tutors';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
           <Route path="/tutors">
             <Tutors></Tutors>
           </Route>
@@ -24,6 +28,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
